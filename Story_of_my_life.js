@@ -29,7 +29,7 @@ while (me == awake)
 
 while (me == sleep)
 {
-  me.dream_about_matthew_gray_gubler
+  me.dream_about_matthew_gray_gubler();
 }
 
 me.awake();
