@@ -22,12 +22,12 @@ me.use_computer = function(){
 };
 
 
-while (me.awake)
+while (me == awake)
 {
   me.use_computer();
 }
 
-while (me.sleep)
+while (me == sleep)
 {
   me.dream_about_matthew_gray_gubler();
 }
