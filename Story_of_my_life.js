@@ -24,7 +24,7 @@ me.use_computer = function(){
 
 while (me == awake)
 {
-  use computer;
+  use_computer;
 }
 
 while (me == sleep)
