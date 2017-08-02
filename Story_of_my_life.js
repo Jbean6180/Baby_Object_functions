@@ -24,12 +24,12 @@ me.use_computer = function(){
 
 while (me == awake)
 {
-  use_computer;
+  me.use_computer();
 }
 
 while (me == sleep)
 {
-  dream about matthew gray gubler
+  me.dream_about_matthew_gray_gubler
 }
 
 me.awake();
