@@ -27,7 +27,7 @@ coffee.empty = function(){
   console.log("*miniature violin*");
 };
 
-while (coffee.hot)
+while (coffee.hot)// IGN 10/10
 {
   me.drink();
 }
@@ -37,7 +37,7 @@ while (coffee.cold)
   me.sad();
 }
 
-while (coffee.empty)
+while (coffee.empty)//new coffee is made
 {
   me.sad();
   coffee.refill();
